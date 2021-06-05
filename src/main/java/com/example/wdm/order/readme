@@ -1,0 +1,8 @@
+跑起来的命令
+dapr run --components-path ./components/actors --app-id demoactorservice --app-port 3000 -- java -jar target/spring-boot-0.0.1-SNAPSHOT.jar com.example.wdm.order.OrderActorService -p 3000
+
+% following:
+
+dapr run --components-path ./components/actors --app-id demoactorclient -- java -jar target/spring-boot-0.0.1-SNAPSHOT.jar com.example.wdm.WdmApplication
+创建过的user id
+4b4e6e04-33c0-4119-81a6-6d963e715107
